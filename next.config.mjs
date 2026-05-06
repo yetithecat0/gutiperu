@@ -28,7 +28,7 @@ const nextConfig = {
       },
       {
         source: '/latelierperuano',
-        destination: 'https://latelierperuano.vercel.app',
+        destination: 'https://latelierperuano.vercel.app/es',
       },
       {
         source: '/latelierperuano/:path*',
