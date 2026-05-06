@@ -5,11 +5,11 @@ import SectionLabel from '@/components/ui/SectionLabel'
 import { PROYECTOS } from '@/lib/constants'
 
 const fadeInUp = {
-  hidden:  { opacity: 0, y: 24 },
+  hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
 }
 const stagger = {
-  hidden:  {},
+  hidden: {},
   visible: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } },
 }
 

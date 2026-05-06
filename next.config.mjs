@@ -26,6 +26,14 @@ const nextConfig = {
         source: '/ati/:path*',
         destination: 'https://ati-pad.vercel.app/:path*',
       },
+      {
+        source: '/latelierperuano',
+        destination: 'https://latelierperuano.vercel.app',
+      },
+      {
+        source: '/latelierperuano/:path*',
+        destination: 'https://latelierperuano.vercel.app/:path*',
+      },
     ]
   },
 };
