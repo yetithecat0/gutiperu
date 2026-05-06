@@ -28,11 +28,11 @@ const nextConfig = {
       },
       {
         source: '/latelierperuano',
-        destination: 'https://latelierperuano.vercel.app/es',
+        destination: 'https://latelierperuano.vercel.app/latelierperuano/es',
       },
       {
         source: '/latelierperuano/:path*',
-        destination: 'https://latelierperuano.vercel.app/:path*',
+        destination: 'https://latelierperuano.vercel.app/latelierperuano/:path*',
       },
     ]
   },
